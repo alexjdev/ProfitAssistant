@@ -17,4 +17,10 @@ public class ProfileDaoImpl implements ProfileDao {
     public Profile findProfileById(Long id) {
         return em.find(Profile.class, id);
     }
+
+    @Override
+    public void addProfile(String profileName) {
+        Profile profile = new Profile(profileName);
+        em.persist(profile);
+    }
 }

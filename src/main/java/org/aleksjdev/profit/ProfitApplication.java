@@ -1,7 +1,6 @@
 package org.aleksjdev.profit;
 
 import javafx.application.Application;
-import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
@@ -9,6 +8,8 @@ import org.aleksjdev.profit.controller.MainController;
 
 /**
  * Главный класс приложения
+ *
+ * @author Aleksey Gorbachev
  */
 public class ProfitApplication extends Application {
 

@@ -13,14 +13,15 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 /**
- * Root application controller
+ * Главный контроллер приложения
+ *
+ * @author Aleksey Gorbachev
  */
 @Component
 public class MainController extends AbstractController implements Initializable {
 
     private static final String PROFILE_TITLE = "Профили";
-    private static final String PROFILE_FORM = "/fxml/profileForm.fxml";
-
+    private static final String PROFILE_FORM = "/fxml/profile/profileForm.fxml";
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {

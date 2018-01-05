@@ -17,7 +17,9 @@ import javax.sql.DataSource;
 import java.util.Properties;
 
 /**
- * Main application config
+ * Главный конфиг приложения
+ *
+ * @author Aleksey Gorbachev
  */
 @Configuration
 @EnableTransactionManagement

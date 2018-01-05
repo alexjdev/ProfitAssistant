@@ -3,7 +3,9 @@ package org.aleksjdev.profit.model;
 import javax.persistence.*;
 
 /**
- * Profile entity class
+ * Профиль
+ *
+ * @author Aleksey Gorbachev
  */
 @Entity
 @Table(name = "profile")
